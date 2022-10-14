@@ -8,8 +8,8 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 
 | No: |               Savollar          |
 |-----|---------------------------------|
-| 1.  |[Docker nima?](#q-Docker-nima)|
-| 2.  |[Docker continer nima?](#q-Docker-container-nima)|
+| 1.  |[Docker nima?](#docker-nima)|
+| 2.  |[Docker continer nima?](#Docker-container-nima)|
 | 3.  |[Docker image nima?](#docker-image-nima)|
 | 4.  |[Docker HUB nima?](#docker-hub-nima)|
 | 5.  |[Docker arxitekturasini tushuntirib bering?](#docker-arxitekturasini-tushuntirib-bering)|
