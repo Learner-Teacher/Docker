@@ -28,7 +28,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 <br/>
 
 
-##  ***Docker nima ?***
+##  ***🔖Docker nima ?***
 
 Docker - bu konteynerlashtirish platformasi bo'lib, ilovangiz va uning barcha bog'liqliklarini konteynerlar ko'rinishida birlashtirib, ilovangiz har qanday muhitda, xoh u ishlab chiqish, sinovdan o'tkazish yoki ishlab chiqarishda muammosiz ishlashini ta'minlaydi.
 
@@ -41,18 +41,18 @@ Docker - bu konteynerlashtirish platformasi bo'lib, ilovangiz va uning barcha bo
      <b><a href="#mundarija">↥ back to top</a></b>
 </div>
 
-##  ***Docker container nima ?***
-##  ***Docker image nima ?***
-##  ***Docker HUB nima ?***
-##  ***Docker arxitekturasini tushuntirib bering ?***
-##  ***Dockerfile nima ?***
-##  ***Docker Compose haqida gapirib bering ?***
-##  ***Dockerfile Docker compose dan qanaqa farqi bor ?***
-##  ***Docker Swarm nima ?***
-##  ***Docker Namespace nima ?***
-##  ***What is the lifecycle of a Docker Container ?***
-##  ***Docker Machine ni tushuntirib bering ?***
-##  ***Ishlayotgan container ning ichiga qanday kirasiz ?***
-##  ***Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?***
-##  ***Docker qayerda ishlatiladi ?***
-##  ***Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi ?***
+##  ***🔖Docker container nima ?***
+##  ***🔖Docker image nima ?***
+##  ***🔖Docker HUB nima ?***
+##  ***🔖Docker arxitekturasini tushuntirib bering ?***
+##  ***🔖Dockerfile nima ?***
+##  ***🔖Docker Compose haqida gapirib bering ?***
+##  ***🔖Dockerfile Docker compose dan qanaqa farqi bor ?***
+##  ***🔖Docker Swarm nima ?***
+##  ***🔖Docker Namespace nima ?***
+##  ***🔖What is the lifecycle of a Docker Container ?***
+##  ***🔖Docker Machine ni tushuntirib bering ?***
+##  ***🔖Ishlayotgan container ning ichiga qanday kirasiz ?***
+##  ***🔖Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?***
+##  ***🔖Docker qayerda ishlatiladi ?***
+##  ***🔖Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi ?***
