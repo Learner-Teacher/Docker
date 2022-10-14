@@ -33,7 +33,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 Docker - bu konteynerlashtirish platformasi bo'lib, ilovangiz va uning barcha bog'liqliklarini konteynerlar ko'rinishida birlashtirib, ilovangiz har qanday muhitda, xoh u ishlab chiqish, sinovdan o'tkazish yoki ishlab chiqarishda muammosiz ishlashini ta'minlaydi.
 
 <p align="center">
-  <img src="image/docker-architecture.png" alt="Docker Architecture" width="600px" />
+  <img src="../image/docker-architecture.png" alt="Docker Architecture" width="600px" />
 </p>
 
 
