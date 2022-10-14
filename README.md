@@ -52,7 +52,7 @@ Docker - bu konteynerlashtirish platformasi bo'lib, ilovangiz va uning barcha bo
 ##  ***Docker Namespace nima ?***
 ##  ***What is the lifecycle of a Docker Container ?***
 ##  ***Docker Machine ni tushuntirib bering ?***
-##  ***Ishlayotgan container nin ichiga qanday kirasiz ?***
+##  ***Ishlayotgan container ning ichiga qanday kirasiz ?***
 ##  ***Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?***
 ##  ***Docker qayerda ishlatiladi ?***
 ##  ***Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi ?***
