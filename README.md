@@ -175,23 +175,23 @@ namespace  Linux xususiyatlaridan biri va konteynerlarning muhim tushunchasidir.
 
 Docker konteynerlari quyidagi hayot aylanishiga ega:
 
-  1.Konteyner yarating
+  1. Konteyner yarating
 
-  2.Konteynerni ishga tushiring
+  2. Konteynerni ishga tushiring
 
-  3.Konteynerni to'xtatib turish (ixtiyoriy)
+  3. Konteynerni to'xtatib turish (ixtiyoriy)
   
-  4.Konteynerni to'xtatib turish (ixtiyoriy)
+  4. Konteynerni to'xtatib turish (ixtiyoriy)
   
-  5.Konteynerni ishga tushiring
+  5. Konteynerni ishga tushiring
   
-  6.Konteynerni to'xtating
+  6. Konteynerni to'xtating
   
-  7.Konteynerni qayta ishga tushiring
+  7. Konteynerni qayta ishga tushiring
   
-  8.Konteynerni o'ldiring
+  8. Konteynerni o'ldiring
   
-  9.Konteynerni yo'q qiling
+  9. Konteynerni yo'q qiling
 
 <div align="right">
      <b><a href="#mundarija">↥ back to top</a></b>
@@ -229,13 +229,13 @@ Yo'q, Docker konteyneri chiqqanda siz hech qanday ma'lumotni yo'qotmaysiz. Ilova
 
 Docker quyidagi sohalarda qo'llaniladi:
 
-- **Konfiguratsiyani soddalashtirish :**  Docker sizga muhit va konfiguratsiyani kodga kiritish va uni joylashtirish imkonini beradi.
-- **Kod quvurlarini boshqarish :** Ishlab chiqish va ishlab chiqarish uchun turli xil tizimlar qo'llaniladi. Kod ishlab chiqishdan sinovdan ishlab chiqarishgacha o'tganda, u atrof-muhitdagi farqdan o'tadi. Docker kod quvurlari izchilligini saqlashga yordam beradi.
-- **Ishlab chiquvchining mahsuldorligi :** ishlab chiqish uchun Docker-dan foydalanish bizga ikkita narsani beradi - biz ishlab chiqarishga yaqinroqmiz va rivojlanish muhiti tezroq quriladi.
-- **Ilova izolyatsiyasi :** Konteynerlar barcha bog'liqliklar bilan birga o'ralgan ilovalar bo'lgani uchun ilovalaringiz izolyatsiya qilingan. Ular Docker-ni qo'llab-quvvatlaydigan har qanday uskunada mustaqil ishlashlari mumkin.
-- **Nosozliklarni tuzatish imkoniyatlari :** Docker konteynerlarga xos bo'lmagan, ammo konteynerlar bilan yaxshi ishlaydigan turli tuzatish vositalarini qo'llab-quvvatlaydi.
+* **Konfiguratsiyani soddalashtirish :**  Docker sizga muhit va konfiguratsiyani kodga kiritish va uni joylashtirish imkonini beradi.
+* **Kod quvurlarini boshqarish :** Ishlab chiqish va ishlab chiqarish uchun turli xil tizimlar qo'llaniladi. Kod ishlab chiqishdan sinovdan ishlab chiqarishgacha o'tganda, u atrof-muhitdagi farqdan o'tadi. Docker kod quvurlari izchilligini saqlashga yordam beradi.
+* **Ishlab chiquvchining mahsuldorligi :** ishlab chiqish uchun Docker-dan foydalanish bizga ikkita narsani beradi - biz ishlab chiqarishga yaqinroqmiz va rivojlanish muhiti tezroq quriladi.
+* **Ilova izolyatsiyasi :** Konteynerlar barcha bog'liqliklar bilan birga o'ralgan ilovalar bo'lgani uchun ilovalaringiz izolyatsiya qilingan. Ular Docker-ni qo'llab-quvvatlaydigan har qanday uskunada mustaqil ishlashlari mumkin.
+* **Nosozliklarni tuzatish imkoniyatlari :** Docker konteynerlarga xos bo'lmagan, ammo konteynerlar bilan yaxshi ishlaydigan turli tuzatish vositalarini qo'llab-quvvatlaydi.
 Ko'p ijaraga olish : Docker sizga kodlaringiz va joylashtirishlaringizdagi ortiqcha narsalarni oldini oluvchi ko'p ijarachi ilovalariga ega bo'lish imkonini beradi.
-- **Rapid Deployment :** Docker butun operatsion tizimni noldan kuchaytirish zaruratini yo'q qiladi va joylashtirish vaqtini qisqartiradi.
+* **Rapid Deployment :** Docker butun operatsion tizimni noldan kuchaytirish zaruratini yo'q qiladi va joylashtirish vaqtini qisqartiradi.
 
 <div align="right">
      <b><a href="#mundarija">↥ back to top</a></b>
