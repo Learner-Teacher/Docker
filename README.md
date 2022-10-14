@@ -30,28 +30,13 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 
 ##  ***Docker nima ?***
 
-dsdsfdsf
-s
-fs
-f
-ds
-fds
-f
-df
-dsf
-dsf
-dsfsdfsf
-df
-s
-dfs
-df
-sdf
-sd
-f
-sdf
-sd
-f
-ds
+Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment, be it development, test or production.
+
+
+<div align="right">
+     <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ##  ***Docker container nima ?***
 ##  ***Docker image nima ?***
 ##  ***Docker HUB nima ?***
