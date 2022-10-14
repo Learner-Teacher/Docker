@@ -45,6 +45,10 @@ Docker - bu konteynerlashtirish platformasi bo'lib, ilovangiz va uning barcha bo
 
 Docker container - bu docker image larni ishga tushirilgan variantidir. Tashqi muhitdan izolatsiyalanga holda ishlaydi. Izolyatsiyalangan deganda tizimda boshqa jarayonlar bilan bog’lanmagan  holda ishlaydi.
 
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
 ##  ***🔖Docker image nima ?***
 
 Docker image - bu Docker containerining manbai hisoblanadi. Docker image containerlarni yaratish uchun ishlatiladi. Agar foydalanuvchi Docker imageni ishga tushirsa, containerning namunasi yaratiladi. Ushbu docker image lari har qanday Docker muhitiga joylashtirilishi mumkin. 
