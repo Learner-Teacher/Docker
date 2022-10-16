@@ -20,7 +20,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 | 10. |[Docker Namespace nima?](#docker-namespace-nima-)|
 | 11. |[What is the lifecycle of a Docker Container?](#what-is-the-lifecycle-of-a-docker-container-)|
 | 12. |[Docker Machine ni tushuntirib bering?](#docker-machine-ni-tushuntirib-bering-)|
-| 13. |[Ishlayotgan container nin ichiga qanday kirasiz ?](#ishlayotgan-container-nin-ichiga-qanday-kirasiz-)|
+| 13. |[Ishlayotgan container ning ichiga qanday kirasiz ?](#ishlayotgan-container-ning-ichiga-qanday-kirasiz-)|
 | 14. |[Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?](#docker-container-dan-chiqib-ketsangiz-malumot-ochib-ketadimi-)|
 | 15. |[Docker qayerda ishlatiladi ?](#docker-qayerda-ishlatiladi-)|
 | 16. |[Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi?](#docker-boshqa-konteynerlashtirish-usullaridan-nimasi-bilan-farq-qiladi-)|
