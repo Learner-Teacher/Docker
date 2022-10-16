@@ -261,3 +261,8 @@ Docker quyidagi sohalarda qo'llaniladi:
 <div align="right">
      <b><a href="#mundarija">↥ back to top</a></b>
 </div>
+
+
+
+
+↘️➡️⬇️⬇️⬇️**Davom etayabdi** ⬇️⬇️⬇️⬅️↙️
