@@ -1,4 +1,8 @@
+[![docker](image/docker.png)](https://www.docker.com/)
+
+
 # Docker Interview Savollari
+
 # 🛑🛑ISHLAB CHIQISH JARAYONIDA🛑🛑
 Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi tegadi degan umiddamiz.
 
