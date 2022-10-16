@@ -24,6 +24,21 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 | 14. |[Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?](#docker-container-dan-chiqib-ketsangiz-malumot-ochib-ketadimi-)|
 | 15. |[Docker qayerda ishlatiladi ?](#docker-qayerda-ishlatiladi-)|
 | 16. |[Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi?](#docker-boshqa-konteynerlashtirish-usullaridan-nimasi-bilan-farq-qiladi-)|
+| 17. |[Docker-da compose fayl yaratish uchun YAML o'rniga JSON-dan foydalana olamanmi?](#docker-da-compose-fayl-yaratish-uchun-yaml-orniga-json-dan-foydalana-olamanmi-)|
+| 18. |[Konteynerlar va virtual mashinalar o'rtasidagi farq nima?]()|
+| 19. |[Hypervisor nima?](#konteynerlar-va-virtual-mashinalar-ortasidagi-farq-nima-)|
+| 20. |[Virtualizatsiya nima?](#virtualizatsiya-nima-)|
+| 21. |[Konteynerlash nima?](#konteynerlash-nima-)|
+| 22. |[Virtualizatsiya va konteynerlashtirish o'rtasidagi farq?](#virtualizatsiya-va-konteynerlashtirish-ortasidagi-farq-)|
+| 23. |[Docker konteynerining holatini aniqlashning  yo'li bormi?](#docker-konteynerining-holatini-aniqlashning--yoli-bormi-)|
+| 24. |[To'xtatilgan konteynerni Docker dan olib tashlay olasizmi?](#toxtatilgan-konteynerni-docker-dan-olib-tashlay-olasizmi-)|
+| 25. |[Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi?](#konteyner-oz-ozidan-qayta-ishga-tushishi-mumkinmi-)|
+| 26. |[rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi?](#rm-buyrugi-yordamida-konteynerni-togridan-togri-olib-tashlash-yoki-konteynerni-toxtatish-va-keyin-konteynerni-olib-tashlash-maqulmi-)|
+| 27. |[Will cloud overtake the use of Containerization?](#will-cloud-overtake-the-use-of-containerization-)|
+| 28. |[Har bir xost uchun qancha konteyner ishlashi mumkin?](#har-bir-xost-uchun-qancha-konteyner-ishlashi-mumkin-)|
+| 29. |[Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container?](#docker-da-statistik-ilovalarni-ishga-tushirish-yaxshimi-or-what-type-of-applications---stateless-or-stateful-are-more-suitable-for-docker-container-)|
+| 30. |[Dockerni ishlab chiqarishda qanday kuzatib borasiz?](#dockerni-ishlab-chiqarishda-qanday-kuzatib-borasiz-)|
+| 31. |[Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi?](#docker-compose-ni-ishlab-chiqarishda-ishlatish-yaxshi-amaliyotmi-)|
 
 <br/>
 
@@ -262,7 +277,124 @@ Docker quyidagi sohalarda qo'llaniladi:
      <b><a href="#mundarija">↥ back to top</a></b>
 </div>
 
+##  ***🔖Docker-da compose fayl yaratish uchun YAML o'rniga JSON-dan foydalana olamanmi ?***
 
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Konteynerlar va virtual mashinalar o'rtasidagi farq nima ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Hypervisor nima ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Virtualizatsiya nima ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Konteynerlash nima ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Virtualizatsiya va konteynerlashtirish o'rtasidagi farq ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Docker konteynerining holatini aniqlashning  yo'li bormi ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖To'xtatilgan konteynerni Docker dan olib tashlay olasizmi ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Will cloud overtake the use of Containerization ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Har bir xost uchun qancha konteyner ishlashi mumkin ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Dockerni ishlab chiqarishda qanday kuzatib borasiz ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
+
+##  ***🔖Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi ?***
+
+**Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
+
+<div align="right">
+     <b><a href="#mundarija">↥ back to top</a></b>
+</div>
 
 ↘️➡️⬇️⬇️⬇️**Davom etayabdi** ⬇️⬇️⬇️⬅️↙️
