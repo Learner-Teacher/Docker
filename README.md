@@ -53,7 +53,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker container nima ?***
@@ -61,7 +61,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 **Docker container** - bu docker image larni ishga tushirilgan variantidir. Tashqi muhitdan izolatsiyalanga holda ishlaydi. Izolyatsiyalangan deganda tizimda boshqa jarayonlar bilan bog’lanmagan  holda ishlaydi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker image nima ?***
@@ -69,7 +69,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 **Docker image** - bu Docker containerining manbai hisoblanadi. Docker image containerlarni yaratish uchun ishlatiladi. Agar foydalanuvchi Docker imageni ishga tushirsa, containerning namunasi yaratiladi. Ushbu docker image lari har qanday Docker muhitiga joylashtirilishi mumkin. 
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker HUB nima ?***
@@ -77,7 +77,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 **Docker Hub** - bu siz yaratgan docker imagelar saqlash mumkin bo’lgan joy ya’ni image lar saqlanadigan ombor hisoblnadi. U joyda hamma uchun umumiy bo’lgan docker imagelar oldindan yozib qo’yilgan siz ulardan olib foydalanishingiz ham mumkin va boshqalarga foydasi tegishi uchun o’zingiz yozgan docker imageni ham ular uchun taqdim etsangiz bo’ladi :)
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker arxitekturasini tushuntirib bering ?***
@@ -91,7 +91,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 - **Registry**: Ushbu komponent Docker tasvirlarini saqlaydi. Umumiy registrlar Docker Hub va Docker Cloud bo'lib, ulardan har kim foydalanishi mumkin.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Dockerfile nima ?***
@@ -121,7 +121,7 @@ docker build -t sofyspace/scm-website:latest .        // --tag , -t   ==> Name a
 docker run -p 3000:3000 sofyspace/scm-website         // Project will run on local and will map to docker conatiner port 
 ```
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker Compose haqida gapirib bering ?***
@@ -163,7 +163,7 @@ docker-compose up  // Start the App
 docker-compose down   // Removing Volumes
 ```
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Dockerfile Docker compose dan qanaqa farqi bor ?***
@@ -174,7 +174,7 @@ docker-compose down   // Removing Volumes
 Docker compose Dockerfile faylidan foydalanadi. Sizning Docker ish jarayoni siz yaratmoqchi bo'lgan har bir image uchun mos Dockerfile yaratish bo'lishi kerak, so'ngra qurish buyrug'i yordamida image larni yig'ish uchun kompozitsiyadan foydalaning.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker Swarm nima ?***
@@ -182,7 +182,7 @@ Docker compose Dockerfile faylidan foydalanadi. Sizning Docker ish jarayoni siz 
 **Docker Swarm** - bu Docker uchun mahalliy klaster. U Docker xostlar partalini yagona virtual Docker xostiga aylantiradi. Docker Swarm standart Docker API-ga xizmat qiladi, Docker daemoni bilan allaqachon aloqada bo'lgan har qanday vosita Swarm-dan bir nechta xostlarni shaffof ravishda o'lchash uchun foydalanishi mumkin.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker Namespace nima ?***
@@ -190,7 +190,7 @@ Docker compose Dockerfile faylidan foydalanadi. Sizning Docker ish jarayoni siz 
 **Docker Namespace**  Linux xususiyatlaridan biri va konteynerlarning muhim tushunchasidir. Namespace konteynerlarda izolyatsiya qatlamini qo'shadi. Docker portativ bo'lib qolish va asosiy xost tizimiga ta'sir qilmaslik uchun turli nomlar bo'shliqlarini taqdim etadi. Docker tomonidan qo'llab-quvvatlanadigan bir nechta nom maydoni turlari - PID, Mount, IPC, User, Network
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖What is the lifecycle of a Docker Container ?***
@@ -216,7 +216,7 @@ Docker konteynerlari quyidagi hayot aylanishiga ega:
   9. Konteynerni yo'q qilish
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker Machine ni tushuntirib bering ?***
@@ -224,7 +224,7 @@ Docker konteynerlari quyidagi hayot aylanishiga ega:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Ishlayotgan container ning ichiga qanday kirasiz ?***
@@ -236,7 +236,7 @@ docker exec -it bash
 **Exec** buyrug'i konteyner ichiga kirish va u bilan ishlash imkonini beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?***
@@ -244,7 +244,7 @@ docker exec -it bash
 **Yo'q**, Docker konteyneri chiqqanda siz hech qanday ma'lumotni yo'qotmaysiz. Ilovangiz konteynerga yozgan har qanday ma'lumotlar siz konteynerni aniq o'chirmaguningizcha diskda saqlanadi. Konteynerning fayl tizimi konteyner to'xtagandan keyin ham saqlanib qoladi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker qayerda ishlatiladi ?***
@@ -266,7 +266,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 * **Rapid Deployment :** Docker butun operatsion tizimni noldan qurish zaruratini yo'q qiladi va joylashtirish vaqtini qisqartiradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi ?***
@@ -274,7 +274,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker konteyner**larini har qanday bulutli platformada joylashtirish juda oson. Boshqa texnologiyalar bilan solishtirganda, u bir xil uskunada ishlaydigan ko'proq ilovalarni olishi mumkin, bu ishlab chiquvchilarga tezda, ishga tushirishga tayyor konteynerli ilovalarni yaratishni osonlashtiradi va ilovalarni boshqarish va joylashtirishni ancha osonlashtiradi. Siz hatto ilovalaringiz bilan konteynerlarni baham ko'rishingiz mumkin.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker-da compose fayl yaratish uchun YAML o'rniga JSON-dan foydalana olamanmi ?***
@@ -282,7 +282,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Konteynerlar va virtual mashinalar o'rtasidagi farq nima ?***
@@ -290,7 +290,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Hypervisor nima ?***
@@ -298,7 +298,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Virtualizatsiya nima ?***
@@ -306,7 +306,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Konteynerlash nima ?***
@@ -314,7 +314,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Virtualizatsiya va konteynerlashtirish o'rtasidagi farq ?***
@@ -322,7 +322,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker konteynerining holatini aniqlashning  yo'li bormi ?***
@@ -330,7 +330,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖To'xtatilgan konteynerni Docker dan olib tashlay olasizmi ?***
@@ -338,7 +338,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi ?***
@@ -346,7 +346,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi ?***
@@ -354,7 +354,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Will cloud overtake the use of Containerization ?***
@@ -362,7 +362,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Har bir xost uchun qancha konteyner ishlashi mumkin ?***
@@ -370,7 +370,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container ?***
@@ -378,7 +378,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Dockerni ishlab chiqarishda qanday kuzatib borasiz ?***
@@ -386,7 +386,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ##  ***🔖Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi ?***
@@ -394,7 +394,7 @@ Docker quyidagi sohalarda qo'llaniladi:
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
 
 <div align="right">
-     <b><a href="#mundarija">↥ back to top</a></b>
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
 ↘️➡️⬇️⬇️⬇️**Davom etayabdi** ⬇️⬇️⬇️⬅️↙️
