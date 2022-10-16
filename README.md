@@ -1,6 +1,5 @@
 [![docker](image/docker1.png)](https://www.docker.com/)
 
-
 # Docker Interview Savollari
 
 # 🛑🛑ISHLAB CHIQISH JARAYONIDA🛑🛑
