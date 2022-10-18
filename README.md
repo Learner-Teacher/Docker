@@ -428,7 +428,7 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 28
+#### 27
 ##  ***🔖Will cloud overtake the use of Containerization ?***
 
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
@@ -437,7 +437,7 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 29
+#### 28
 ##  ***🔖Har bir xost uchun qancha konteyner ishlashi mumkin ?***
 
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
@@ -446,7 +446,7 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 30
+#### 29
 ##  ***🔖Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container ?***
 
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
@@ -455,7 +455,7 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 31
+#### 30
 ##  ***🔖Dockerni ishlab chiqarishda qanday kuzatib borasiz ?***
 
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
@@ -464,7 +464,7 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 32
+#### 31
 ##  ***🔖Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi ?***
 
 **Docker Machine** - virtual xostlarga Docker Engine o'rnatish imkonini beruvchi vositadir. Endi bu xostlarni docker-machine buyruqlari yordamida boshqarish mumkin. Docker Machine sizga Docker Swarm klasterlarini ta'minlashga ham imkon beradi.
@@ -473,5 +473,5 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
 </div>
 
-#### 33
+#### 32
 ↘️➡️⬇️⬇️⬇️**Davom etayabdi** ⬇️⬇️⬇️⬅️↙️
