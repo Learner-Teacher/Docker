@@ -34,7 +34,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 | 21. |[Konteynerlash nima?](#konteynerlash-nima-)|
 | 22. |[Virtualizatsiya va konteynerlashtirish o'rtasidagi farq?](#virtualizatsiya-va-konteynerlashtirish-ortasidagi-farq-)|
 | 23. |[Docker konteynerining holatini aniqlashning  yo'li bormi?](#docker-konteynerining-holatini-aniqlashning--yoli-bormi-)|
-| 24. |[To'xtatilgan konteynerni Docker dan olib tashlay olasizmi?](#pauza-qilingan-konteynerni-docker-dan-ochirib-tashlay-olasizmi-)|
+| 24. |[Pauza qilingan konteynerni Docker dan o'chirib tashlay olasizmi?](#pauza-qilingan-konteynerni-docker-dan-ochirib-tashlay-olasizmi-)|
 | 25. |[Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi?](#konteyner-oz-ozidan-qayta-ishga-tushishi-mumkinmi-)|
 | 26. |[rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi?](#rm-buyrugi-yordamida-konteynerni-togridan-togri-olib-tashlash-yoki-konteynerni-toxtatish-va-keyin-konteynerni-olib-tashlash-maqulmi-)|
 | 27. |[Will cloud overtake the use of Containerization?](#will-cloud-overtake-the-use-of-containerization-)|
