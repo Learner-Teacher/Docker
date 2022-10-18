@@ -310,6 +310,10 @@ docker-compose -f docker-compose.json up
 #### 18
 ##  ***🔖Konteynerlar va virtual mashinalar o'rtasidagi farq nima ?***
 
+<p align="center">
+  <img src="image/container-vs-virtual-machine.png" alt="Containers and Virtual Machines" width="600px" />
+</p>
+
 **Virtual mashinalar**:
 
 Virtual mashina (VM) eng yaxshi jismoniy apparat yoki hisoblash tizimining funksionalligini taqlid qiluvchi dasturiy ta'minot sifatida tavsiflanadi. U gipervisor deb ataladigan taqlid qiluvchi dastur ustida ishlaydi, u asosiy jismoniy apparat resurslarining funksionalligini dasturiy muhit bilan takrorlaydi. Ushbu resurslarni xost mashinasi deb atash mumkin, gipervisorda ishlaydigan VM esa odatda mehmon mashinasi deb ataladi.
@@ -356,7 +360,7 @@ Konteynerlar bitta asosiy farq bilan modulli ilova funksionalligi uchun izolyats
 #### 20
 ##  ***🔖Virtualizatsiya nima ?***
 
-**Virtualizatsiya** - bu dasturiy ta'minotga asoslangan, biror narsaning virtual versiyasini (hisoblash xotirasi, serverlar, ilovalar va boshqalar) yaratish jarayoni. Ushbu virtual versiyalar yoki muhitlar bitta jismoniy apparat tizimidan yaratilgan. Virtualizatsiya bir tizimni alohida, alohida alohida tizimlar kabi ishlaydigan ko'plab turli bo'limlarga bo'lish imkonini beradi. Hypervisor deb nomlangan dastur bunday bo'linish imkonini beradi. Gipervisor tomonidan yaratilgan virtual muhit Virtual mashina deb ataladi.
+**Virtualizatsiya** - bu dasturiy ta'minotga asoslangan, biror narsaning virtual versiyasini (hisoblash xotirasi, serverlar, ilovalar va boshqalar) yaratish jarayoni. Ushbu virtual versiyalar yoki muhitlar bitta jismoniy apparat tizimidan yaratilgan. Virtualizatsiya bir tizimni alohida, alohida tizimlar kabi ishlaydigan ko'plab turli bo'limlarga bo'lish imkonini beradi. Hypervisor deb nomlangan dastur bunday bo'linish imkonini beradi. Gipervisor tomonidan yaratilgan virtual muhit Virtual mashina deb ataladi.
 
 <div align="right">
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
@@ -365,7 +369,7 @@ Konteynerlar bitta asosiy farq bilan modulli ilova funksionalligi uchun izolyats
 #### 21
 ##  ***🔖Konteynerlash nima ?***
 
-Odatda, dasturiy ta'minotni ishlab chiqish jarayonida, bitta mashinada ishlab chiqilgan kod, bog'liqlik tufayli boshqa biron bir mashinada yaxshi ishlamasligi mumkin. Ushbu muammoni konteynerlashtirish kontseptsiyasi hal qilindi. Shunday qilib, asosan, ishlab chiqilayotgan va o'rnatilayotgan dastur barcha konfiguratsiya fayllari va bog'liqliklari bilan birga yig'iladi va o'raladi. Ushbu to'plam konteyner deb ataladi. Endi dasturni boshqa tizimda ishga tushirmoqchi bo'lganingizda, barcha bog'liqliklar va kutubxonalar bir-biriga o'ralganligi sababli xatosiz muhitni ta'minlaydigan konteyner o'rnatiladi. Eng mashhur konteynerlashtirish muhitlari Docker va Kubernetesdir.
+Odatda, dasturiy ta'minotni ishlab chiqish jarayonida, bitta mashinada ishlab chiqilgan kod, bog'liqlik tufayli boshqa biron bir mashinada yaxshi ishlamasligi mumkin. Ushbu muammoni konteynerlashtirish kontseptsiyasi hal qilindi. Shunday qilib, asosan, ishlab chiqilayotgan va o'rnatilayotgan dastur barcha konfiguratsiya fayllari va bog'liqliklari bilan birga yig'iladi va o'raladi. Ushbu to'plam konteyner deb ataladi. Endi dasturni boshqa tizimda ishga tushirmoqchi bo'lganingizda, barcha bog'liqliklar va kutubxonalar bir-biriga bog'langanligi sababli xatosiz muhitni ta'minlaydigan konteyner o'rnatiladi. Eng mashhur konteynerlashtirish muhitlari Docker va Kubernetesdir.
 
 <div align="right">
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
@@ -374,7 +378,7 @@ Odatda, dasturiy ta'minotni ishlab chiqish jarayonida, bitta mashinada ishlab ch
 #### 22
 ##  ***🔖Virtualizatsiya va konteynerlashtirish o'rtasidagi farq ?***
 
-Konteynerlar dasturni ishga tushirish uchun izolyatsiya qilingan muhitni ta'minlaydi. Butun foydalanuvchi maydoni aniq dasturga bag'ishlangan. Konteyner ichida qilingan har qanday o'zgarishlar hech qachon xostda yoki hatto bitta xostda ishlaydigan boshqa konteynerlarda aks ettirilmaydi. Konteynerlar amaliy qatlamning abstraktsiyasidir. Har bir konteyner boshqa dastur hisoblanadi.
+Konteynerlar dasturni ishga tushirish uchun izolyatsiya qilingan muhitni ta'minlaydi. Butun foydalanuvchi maydoni aniq dasturga bog'langan. Konteyner ichida qilingan har qanday o'zgarishlar hech qachon xostda yoki hatto bitta xostda ishlaydigan boshqa konteynerlarda tasir qilmaydi. Konteynerlar izolatsiya bo'lib ishlaydi va har biri alohida bir biriga ta'sirsiz ishlaydi.
 
 Virtualizatsiyada gipervisorlar mehmonga butun virtual mashinani taqdim etadilar (shu jumladan Kernal). Virtual mashinalar apparat qatlamining abstraktsiyasidir. Har bir VM jismoniy mashinadir. VM ko'proq izolyatsiya qilingan va og'ir va boshlash uchun ko'p vaqt talab etiladi.
 
@@ -385,16 +389,16 @@ Virtualizatsiyada gipervisorlar mehmonga butun virtual mashinani taqdim etadilar
 #### 23
 ##  ***🔖Docker konteynerining holatini aniqlashning  yo'li bormi ?***
 
-Har qanday nuqtada konteyner bo'lishi mumkin bo'lgan oltita holat mavjud
+Har qanday joyda konteyner bo'lishi mumkin bo'lgan oltita holat mavjud:
 
-1. Yaratilgan
-2. Yugurish
-3. Pauza qilingan
-4. Qayta ishga tushirilmoqda
-5. Chiqib ketdi
-6. O'lgan.
+1. Created (yaratmoq)
+2. Running (ishga tushurmoq)
+3. Paused (vaqtincha to'xtatish ya'ni pauza qilish)
+4. Restarting (qayta ishga tushurish)
+5. Exited (kontainerdan chiqib ketish)
+6. Dead. (kontainerni yo'q qilmoq)
 
-Istalgan nuqtada docker holatini tekshirish uchun quyidagi buyruqdan foydalaning: ```$ docker ps``` Yuqoridagi buyruq sukut bo'yicha faqat ishlaydigan konteynerlar ro'yxatini ko'rsatadi. Barcha konteynerlarni qidirish uchun quyidagi buyruqdan foydalaning: ```$ docker ps -a```
+Istalgan joyda docker holatini tekshirish uchun quyidagi buyruqdan foydalaning: ```$ docker ps``` Yuqoridagi buyruq  bo'yicha faqat ishlaydigan konteynerlar ro'yxatini ko'rsatadi. Barcha konteynerlarni qidirish uchun quyidagi buyruqdan foydalaning: ```$ docker ps -a```
 
 <div align="right">
      <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
@@ -474,4 +478,4 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
 </div>
 
 #### 32
-↘️➡️⬇️⬇️⬇️**Davom etayabdi** ⬇️⬇️⬇️⬅️↙️
+↘️➡️⬇️⬇️⬇️**Davom etayabdi 25 gacha bo'ldi** ⬇️⬇️⬇️⬅️↙️
