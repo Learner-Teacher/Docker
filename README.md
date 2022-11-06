@@ -11,37 +11,55 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 
 | No: |               Savollar          |
 |-----|---------------------------------|
-| 1.  |[Docker nima?](#docker-nima-)|
-| 2.  |[Docker continer nima?](#Docker-container-nima-)|
-| 3.  |[Docker image nima?](#docker-image-nima-)|
-| 4.  |[Docker HUB nima?](#docker-hub-nima-)|
-| 5.  |[Docker arxitekturasini tushuntirib bering?](#docker-arxitekturasini-tushuntirib-bering-)|
-| 6.  |[Dockerfile nima?](#dockerfile-nima-)|
-| 7.  |[Docker Compose haqida gapirib bering?](#docker-compose-haqida-gapirib-bering-)|
-| 8.  |[Dockerfile Docker compose dan qanaqa farqi bor?](#dockerfile-docker-compose-dan-qanaqa-farqi-bor-)|
-| 9.  |[Docker Swarm nima?](#docker-swarm-nima-)|
-| 10. |[Docker Namespace nima?](#docker-namespace-nima-)|
-| 11. |[What is the lifecycle of a Docker Container?](#what-is-the-lifecycle-of-a-docker-container-)|
-| 12. |[Docker Machine ni tushuntirib bering?](#docker-machine-ni-tushuntirib-bering-)|
-| 13. |[Ishlayotgan container ning ichiga qanday kirasiz ?](#ishlayotgan-container-ning-ichiga-qanday-kirasiz-)|
-| 14. |[Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?](#docker-container-dan-chiqib-ketsangiz-malumot-ochib-ketadimi-)|
-| 15. |[Docker qayerda ishlatiladi ?](#docker-qayerda-ishlatiladi-)|
-| 16. |[Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi?](#docker-boshqa-konteynerlashtirish-usullaridan-nimasi-bilan-farq-qiladi-)|
-| 17. |[Docker-da compose fayl yaratish uchun YAML o'rniga JSON-dan foydalana olamanmi?](#docker-da-compose-fayl-yaratish-uchun-yaml-orniga-json-dan-foydalana-olamanmi-)|
-| 18. |[Konteynerlar va virtual mashinalar o'rtasidagi farq nima?]()|
-| 19. |[Hypervisor nima?](#konteynerlar-va-virtual-mashinalar-ortasidagi-farq-nima-)|
-| 20. |[Virtualizatsiya nima?](#virtualizatsiya-nima-)|
-| 21. |[Konteynerlash nima?](#konteynerlash-nima-)|
-| 22. |[Virtualizatsiya va konteynerlashtirish o'rtasidagi farq?](#virtualizatsiya-va-konteynerlashtirish-ortasidagi-farq-)|
-| 23. |[Docker konteynerining holatini aniqlashning  yo'li bormi?](#docker-konteynerining-holatini-aniqlashning--yoli-bormi-)|
-| 24. |[Pauza qilingan konteynerni Docker dan o'chirib tashlay olasizmi?](#pauza-qilingan-konteynerni-docker-dan-ochirib-tashlay-olasizmi-)|
-| 25. |[Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi?](#konteyner-oz-ozidan-qayta-ishga-tushishi-mumkinmi-)|
-| 26. |[rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi?](#rm-buyrugi-yordamida-konteynerni-togridan-togri-olib-tashlash-yoki-konteynerni-toxtatish-va-keyin-konteynerni-olib-tashlash-maqulmi-)|
-| 27. |[Will cloud overtake the use of Containerization?](#will-cloud-overtake-the-use-of-containerization-)|
-| 28. |[Har bir xost uchun qancha konteyner ishlashi mumkin?](#har-bir-xost-uchun-qancha-konteyner-ishlashi-mumkin-)|
-| 29. |[Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container?](#docker-da-statistik-ilovalarni-ishga-tushirish-yaxshimi-or-what-type-of-applications---stateless-or-stateful-are-more-suitable-for-docker-container-)|
-| 30. |[Dockerni ishlab chiqarishda qanday kuzatib borasiz?](#dockerni-ishlab-chiqarishda-qanday-kuzatib-borasiz-)|
-| 31. |[Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi?](#docker-compose-ni-ishlab-chiqarishda-ishlatish-yaxshi-amaliyotmi-)|
+| 1.  |[Docker nima?](#1)|
+| 2.  |[Docker continer nima?](#2)|
+| 3.  |[Docker image nima?](#3)|
+| 4.  |[Docker HUB nima?](#4)|
+| 5.  |[Docker arxitekturasini tushuntirib bering?](#5)|
+| 6.  |[Dockerfile nima?](#6)|
+| 7.  |[Docker Compose haqida gapirib bering?](#7)|
+| 8.  |[Dockerfile Docker compose dan qanaqa farqi bor?](#8)|
+| 9.  |[Docker Swarm nima?](#9)|
+| 10. |[Docker Namespace nima?](#10)|
+| 11. |[What is the lifecycle of a Docker Container?](#11)|
+| 12. |[Docker Machine ni tushuntirib bering?](#12)|
+| 13. |[Ishlayotgan container ning ichiga qanday kirasiz ?](#13)|
+| 14. |[Docker container dan chiqib ketsangiz ma'lumot o'chib ketadimi ?](#14)|
+| 15. |[Docker qayerda ishlatiladi ?](#15)|
+| 16. |[Docker boshqa konteynerlashtirish usullaridan nimasi bilan farq qiladi?](#16)|
+| 17. |[Docker-da compose fayl yaratish uchun YAML o'rniga JSON-dan foydalana olamanmi?](#17)|
+| 18. |[Konteynerlar va virtual mashinalar o'rtasidagi farq nima?](#18)|
+| 19. |[Hypervisor nima?](#19)|
+| 20. |[Virtualizatsiya nima?](#20)|
+| 21. |[Konteynerlash nima?](#21)|
+| 22. |[Virtualizatsiya va konteynerlashtirish o'rtasidagi farq?](#22)|
+| 23. |[Docker konteynerining holatini aniqlashning  yo'li bormi?](#23)|
+| 24. |[Pauza qilingan konteynerni Docker dan o'chirib tashlay olasizmi?](#24)|
+| 25. |[Konteyner o'z-o'zidan qayta ishga tushishi mumkinmi?](#25)|
+| 26. |[rm buyrug'i yordamida konteynerni to'g'ridan-to'g'ri olib tashlash yoki konteynerni to'xtatish va keyin konteynerni olib tashlash ma'qulmi?](#26)|
+| 27. |[Will cloud overtake the use of Containerization?](#27)|
+| 28. |[Har bir xost uchun qancha konteyner ishlashi mumkin?](#28)|
+| 29. |[Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container?](#29)|
+| 30. |[Dockerni ishlab chiqarishda qanday kuzatib borasiz?](#30)|
+| 31. |[Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi?](#31)|
+| 32. |[](#32)|
+| 33. |[](#33)|
+| 34. |[](#34)|
+| 35. |[](#35)|
+| 36. |[](#36)|
+| 37. |[](#37)|
+| 38. |[](#38)|
+| 39. |[](#39)|
+| 40. |[](#40)|
+| 41. |[](#41)|
+| 42. |[](#42)|
+| 43. |[](#43)|
+| 44. |[](#44)|
+| 45. |[](#45)|
+| 46. |[](#46)|
+| 47. |[](#47)|
+| 48. |[](#48)|
+| 49. |[](#49)|
 
 <br/>
 
@@ -478,4 +496,58 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
 </div>
 
 #### 32
+#### 33
+#### 34
+#### 35
+#### 36
+#### 37
+#### 38
+#### 39
+#### 40
+#### 41
+#### 42
+#### 43
+#### 44
+#### 45
+#### 46
+#### 47
+#### 48
+#### 49
+#### 50
+#### 51
+#### 52
+#### 53
+#### 54
+#### 55
+#### 56
+#### 57
+#### 58
+#### 59
+#### 60
+#### 61
+#### 62
+#### 63
+#### 64
+#### 65
+#### 66
+#### 67
+#### 68
+#### 69
+#### 70
+#### 71
+#### 72
+#### 73
+#### 74
+#### 75
+#### 76
+#### 77
+#### 78
+#### 79
+#### 80
+#### 81
+#### 82
+#### 83
+#### 84
+#### 85
+#### 86
 ↘️➡️⬇️⬇️⬇️**Davom etayabdi 25 gacha bo'ldi** ⬇️⬇️⬇️⬅️↙️
