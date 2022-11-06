@@ -550,4 +550,4 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
 #### 84
 #### 85
 #### 86
-↘️➡️⬇️⬇️⬇️**Davom etayabdi 25 gacha bo'ldi** ⬇️⬇️⬇️⬅️↙️
+↘️➡️⬇️⬇️⬇️**Davom etayabdi 25 gacha bo'ldi 18 da xatolik bor** ⬇️⬇️⬇️⬅️↙️
