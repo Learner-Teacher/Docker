@@ -42,7 +42,7 @@ Biz docker bo'yicha intervyu savollarini jamlashga qaror qildik va sizga foydasi
 | 29. |[Docker-da statistik ilovalarni ishga tushirish yaxshimi? or What type of applications - Stateless or Stateful are more suitable for Docker Container?](#29)|
 | 30. |[Dockerni ishlab chiqarishda qanday kuzatib borasiz?](#30)|
 | 31. |[Docker compose-ni ishlab chiqarishda ishlatish yaxshi amaliyotmi?](#31)|
-| 32. |[](#32)|
+| 32. |[sdsdsd](#32)|
 | 33. |[](#33)|
 | 34. |[](#34)|
 | 35. |[](#35)|
