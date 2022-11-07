@@ -533,8 +533,23 @@ Standart o'rnatilganda odatda kontayner ```restart``` buyrug'i bilan qayta ishga
 </div>
 
 #### 32
+
+<div align="right">
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
+</div>
+
 #### 33
+
+<div align="right">
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
+</div>
+
 #### 34
+
+<div align="right">
+     <b><a href="#mundarija">↥ Mundarijaga qaytish</a></b>
+</div>
+
 #### 35
 #### 36
 #### 37
